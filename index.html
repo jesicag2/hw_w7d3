@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="static/main.css">
+<title>Tech Solutions</title>
+</head>
+<body>
+
+<header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>Tech Solutions</h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Tech Solutions</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                More Information
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="row">
+        <!-- Main Section -->
+        <div class="col-md-8">
+            <h2>Our Services</h2>
+            <!-- Services -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <img src="./static/media/cloud.jpg" alt="Cloud Services" class="img-fluid">
+                        <h3>Cloud Services</h3>
+                        <p>We provide comprehensive cloud solutions tailored to your business needs, enabling seamless scalability and efficient resource management in the digital realm.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <img src="./static/media/backup.jpg.webp" alt="Backup Solutions" class="img-fluid">
+                        <h3>Backup Solutions</h3>
+                        <p>Our robust backup solutions ensure the safety and integrity of your critical data, offering peace of mind and resilience against unforeseen disasters or data loss incidents.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <img src="./static/media/network.jpg" alt="Network Security" class="img-fluid">
+                        <h3>Network Security</h3>
+                        <p>Our advanced network security measures safeguard your digital infrastructure, proactively identifying and mitigating cyber threats to maintain the confidentiality, integrity, and availability of your data and resources.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Sidebar - About Us -->
+        <div class="col-md-4">
+            <div class="sidebar">
+                <h2>About Us</h2>
+                <p>Welcome to Tech Solutions, where innovation meets expertise. With a commitment to excellence, we empower businesses to thrive in the digital era through tailored technology solutions. Our dedicated team of professionals is passionate about delivering unparalleled service, driving efficiency, and enabling growth. Partner with us to unlock the full potential of your digital journey and stay ahead in today's dynamic marketplace.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+</div>
+
+<!-- Contact Us Form -->
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 p-3 border rounded shadow text-center">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="form-floating col-12 col-md-6">
+                    <input type="text" class="form-control" id="username" name="username" placeholder="jesicag2" required>
+                    <label for="firstname">First Name</label>
+                </div>
+
+                <div class="form-floating col-12">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="jesica@gmail.com" required>
+                    <label for="email">Email</label>
+                </div>
+
+                <div class="form-floating col-12">
+                    <select class="form-select" aria-label="selectservice">
+                        <option selected>Select Service</option>
+                        <option value="1">Cloud Solutions</option>
+                        <option value="2">Backup Solutions</option>
+                        <option value="3">Network Security</option>
+                    </select>
+                </div>
+
+                <div class="form-floating col-12">
+                    <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+                    <label for="email">Message</label>
+                </div>
+                <button type="button" class="btn btn-danger">Click Me</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
